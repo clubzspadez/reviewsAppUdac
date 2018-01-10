@@ -104,7 +104,7 @@ nav h1 a {
 }
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
   text-align: center;
   width: 100%;
   background-color: #3397DB;
@@ -290,11 +290,6 @@ nav h1 a {
 /* ====================== MEDIA QUERIES ====================== */
 
 @media (max-width: 450px) {
-  body{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
   header {
     width: 100%;
   }
@@ -310,9 +305,9 @@ nav h1 a {
   }
   #maincontent {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  }
+  .filter-options h2{
+    padding: 10px;
   }
   .inside #map-container {
     order: 1;
